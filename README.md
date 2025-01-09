@@ -6,10 +6,15 @@ Testcases I have automated are from "Registration Form" test runs: https://nipa2
 Testcase run from their Ids:
 
 T6: https://nipa23pandya.testrail.io/index.php?/tests/view/6
+
 T8: https://nipa23pandya.testrail.io/index.php?/tests/view/8
+
 T9: https://nipa23pandya.testrail.io/index.php?/tests/view/9
+
 T10: https://nipa23pandya.testrail.io/index.php?/tests/view/10
+
 T17: https://nipa23pandya.testrail.io/index.php?/tests/view/17
+
 T20: https://nipa23pandya.testrail.io/index.php?/tests/view/20
 
 Driver code: "registration_main.py" is driver file where all library functions are mentioned and performed.
