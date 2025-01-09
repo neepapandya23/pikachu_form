@@ -18,6 +18,7 @@ T17: https://nipa23pandya.testrail.io/index.php?/tests/view/17
 T20: https://nipa23pandya.testrail.io/index.php?/tests/view/20
 
 Driver code: "registration_main.py" is driver file where all library functions are mentioned and performed.
+Task.docx file : Where all answers of given task steps are mentioned.
 
 Driver function: perform_testcases() is the driver function where all testcases are performed.
 
