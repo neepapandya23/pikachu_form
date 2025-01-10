@@ -1,0 +1,195 @@
+Performing testcases by their testrun number from testrail :
+---------------------Performing testrun no T6------------------------
+STEP 1: Enter into https://audiostack-qa-test.netlify.app/
+STEP 2: Verify Starter pokemon dropdown box is highlighting with red colour.
+Test_step: User leave unselected any Pokemon from Pokemon Starter dropdown box
+Test_step:Click on submit button.
+Test_step Result: Starter Pokemon dropdown box is highlighting in red as mandatory field.
+Test Result: Passed
+---------------------End of testrun no T6------------------------
+------------------------------------------------------------------
+---------------------Performing testrun no T8------------------------
+STEP 1: Get list of starter pokemon from dropdown box.
+list of starter_pokemon: 
+ ['Select your starter', 'bulbasaur', 'charmander', 'squirtle', 'Pikachu']
+STEP 2: selecting each starter pokemon from list.
+selecting Starter Pokemon bulbasaur
+STEP 3: Verifying stats are available or not.
+ Test_step Result: Selected bulbasaur stats detail!
+Your starter Pokemon Details
+bulbasaur
+153
+Stats
+hp
+base stat: 45
+effort: 0
+attack
+base stat: 49
+effort: 0
+defense
+base stat: 49
+effort: 0
+special-attack
+base stat: 65
+effort: 1
+special-defense
+base stat: 65
+effort: 0
+speed
+base stat: 45
+effort: 0
+Types
+grass
+poison
+Weight: 69
+Test_step Result: Passed
+selecting Starter Pokemon charmander
+STEP 3: Verifying stats are available or not.
+ Test_step Result: Selected charmander stats detail!
+Your starter Pokemon Details
+charmander
+176
+Stats
+hp
+base stat: 39
+effort: 0
+attack
+base stat: 52
+effort: 0
+defense
+base stat: 43
+effort: 0
+special-attack
+base stat: 60
+effort: 0
+special-defense
+base stat: 50
+effort: 0
+speed
+base stat: 65
+effort: 1
+Types
+fire
+Weight: 85
+Test_step Result: Passed
+selecting Starter Pokemon squirtle
+STEP 3: Verifying stats are available or not.
+ Test_step Result: Selected squirtle stats detail!
+Your starter Pokemon Details
+squirtle
+177
+Stats
+hp
+base stat: 44
+effort: 0
+attack
+base stat: 48
+effort: 0
+defense
+base stat: 65
+effort: 1
+special-attack
+base stat: 50
+effort: 0
+special-defense
+base stat: 64
+effort: 0
+speed
+base stat: 43
+effort: 0
+Types
+water
+Weight: 90
+Test_step Result: Passed
+selecting Starter Pokemon Pikachu
+STEP 3: Verifying stats are available or not.
+ Test_step Result: Selected Pikachu stats detail!
+Your starter Pokemon Details
+squirtle
+177
+Stats
+hp
+base stat: 44
+effort: 0
+attack
+base stat: 48
+effort: 0
+defense
+base stat: 65
+effort: 1
+special-attack
+base stat: 50
+effort: 0
+special-defense
+base stat: 64
+effort: 0
+speed
+base stat: 43
+effort: 0
+Types
+water
+Weight: 90
+Test_step Result: Passed
+---------------------End of testrun no T8------------------------
+------------------------------------------------------------------
+---------------------Performing testrun no T9------------------------
+STEP 1: Get list of starter pokemon from dropdown box.
+list of starter_pokemon: 
+ ['Select your starter', 'bulbasaur', 'charmander', 'squirtle', 'Pikachu']
+STEP 2: selecting each starter pokemon from list.
+selecting Starter Pokemon bulbasaur
+STEP 3: Verifying stats are consistent with selected pokemon.
+Test_step Result: selected pokemon bulbasaur and their stats are consistent with each other.
+Test_step Result: Passed
+selecting Starter Pokemon charmander
+STEP 3: Verifying stats are consistent with selected pokemon.
+Test_step Result: selected pokemon charmander and their stats are consistent with each other.
+Test_step Result: Passed
+selecting Starter Pokemon squirtle
+STEP 3: Verifying stats are consistent with selected pokemon.
+Test_step Result: selected pokemon squirtle and their stats are consistent with each other.
+Test_step Result: Passed
+selecting Starter Pokemon Pikachu
+STEP 3: Verifying stats are consistent with selected pokemon.
+Test_step Result: selected pokemon Pikachu and their stats are not consistent with each other.
+ Test_step Result: failed
+---------------------End of testrun no T9------------------------
+------------------------------------------------------------------
+---------------------Performing testrun no T10------------------------
+STEP 1: Enter into https://audiostack-qa-test.netlify.app/
+STEP 2: Write input text in Name input field.
+Neepa is writing in name input text field.
+STEP 3: selecting random_pokemon
+Test_step:Click on submit button.
+STEP 4:Verify pop up registration notification.
+Test_step Result: User gets notification :
+Registration Successful
+Welcome to the Pokemon League!
+Test Result: Passed
+---------------------End of testrun no T10------------------------
+------------------------------------------------------------------
+---------------------Performing testrun no T17------------------------
+STEP 1: Enter into https://audiostack-qa-test.netlify.app/
+STEP 2: Write input text in Name input field.
+Neepa is writing in name input text field.
+STEP 3: Verify Starter pokemon dropdown box is highlighting with red colour.
+Test_step: User leave unselected any Pokemon from Pokemon Starter dropdown box
+Test_step:Click on submit button.
+Test_step Result: Starter Pokemon dropdown box is not highlighting in red as mandatory field.
+STEP 4:Verify pop up registration notification.
+Test_step Result: User gets notification :
+Registration Successful
+Welcome to the Pokemon League!
+Test Result: Failed
+---------------------End of testrun no T17------------------------
+------------------------------------------------------------------
+---------------------Performing testrun no T20------------------------
+STEP 1: Enter into https://audiostack-qa-test.netlify.app/
+STEP 2: Verify Starter pokemon dropdown box is highlighting with red colour.
+Test_step Result: Starter Pokemon dropdown box is not highlighting in red as mandatory field.
+Test Result: Failed
+---------------------End of testrun no T20------------------------
+------------------------------------------------------------------
+CLosing the web driver session.
+
+Process finished with exit code 0
